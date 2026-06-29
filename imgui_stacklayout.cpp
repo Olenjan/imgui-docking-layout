@@ -54,7 +54,7 @@ Index of this file:
 
 #include "imgui.h"
 #ifndef IMGUI_DISABLE
-#include "imgui_stacklayout_internal.h"
+#include "imgui_internal.h"
 
 #if defined(_MSC_VER) && _MSC_VER <= 1500 // MSVC 2008 or earlier
 #include <stddef.h>     // intptr_t
